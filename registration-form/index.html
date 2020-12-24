@@ -31,33 +31,42 @@
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
 <div class="card-body">
-                    <h1 class="title">Application Form</h2>
-                    <h7 class="subtitle">Number the boxes as per preferences of programmes. </h3>
+                    <h1 class="title">Application Form</h1>
+                    <h6 class="subtitle">Number the boxes as per preferences of programmes. </h6>
+                    	<br>
+                    	<br>
+                    	<br>
                     <form method="POST">
                        
                         	<div class="row row-space">
-                        	<div class="input-group">
-                            <label class="label">Programme</label>
-	                            <div class="rs-select2 js-select-simple select--no-search">
-	                                <select name="subject">
-	                                    <option disabled="disabled" selected="selected">Choose option</option>
-	                                    <option>BEIT</option>
-	                                    <option>BE Computer</option>
-	                                    <option>BE Civil</option>
-	                                    <option>BE Architecture</option>
-	                                    <option>BE Electronics and Communication</option>
-	                                </select>
-	                                <div class="select-dropdown"></div>
-	                            </div>
-                        	</div>
-                        	 
+
+                        	 	<div class="cb1"><input type="checkbox">BE Civil</div>
+								<div class="cb2"><input type="checkbox">BE Computer</div>
+								<div class="cb3"><input type="checkbox">BE Electronics AND Communication</div>
+								<div class="cb4"><input type="checkbox">B Architecture</div>
+								<div class="cb5"><input type="checkbox">BEIT</div>
+								<div class="cb6"><input type="checkbox">BBA</div>
+  							</div>
+
+  							<br>
+  							<br>
+  					<div class="row row-space">
                                 <div class="input-group">
                                     <label class="label">Form Number</label>
-                                    <input class="input--style-4" type="text" name="form">
+                                    <input class="input--style-4" type="number" name="form">
                                 </div>
-                            </div>
+                                </div>
+<br>
+<br>
+                          	<div class ="row row-space" >
+                          	 <label for="img"><h1 class="title">Upload your recent pp size photo:</h1></label>
+								  <input type="file" id="img" name="img" accept="image/*">
+								
+							</div>
 
-                        	<h1 class="title">Personal Information</h2>
+					<br>
+					<br>
+                        	<h2 class="title">Personal Information *</h2>
                            <div class="row row-space">
                                 <div class="input-group">
                                     <label class="label">First name</label>
@@ -132,7 +141,7 @@
                            <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Phone Number</label>
-                                    <input class="input--style-4" type="text" name="phone">
+                                    <input class="input--style-4" type="number" name="phone">
                                 </div>
                           </div>
                           <div class="col-2">
@@ -151,16 +160,16 @@
                                 </div>
                               </div>  
                             </div>
-                             <h1 class="title">Academic Records</h2>
+                             <h2 class="title">Academic Records</h2>
                         <div class="row row-space">     	
-                        <table border="1">
+                        <table border="2">
                         	<tr>
-                        		<th>Certificate</td>
-                        		<th> Name of institution</td>
-                        		<th>Passed Years</td> 
-                        		<th>Passed Division</td> 
-                        		<th>Division</td> 
-                        		<th>Percentage or GPA</td>                   	
+                        		<th>Certificate</th>
+                        		<th> Name of institution</th>
+                        		<th>Passed Years</th> 
+                        		<th>Passed Division</th> 
+                        		<th>Division</th> 
+                        		<th>Percentage or GPA</th>                   	
                         	</tr>
                         	<tr>
                         	
@@ -169,7 +178,7 @@
                                     <label class="label"> SLC or equivalent</label>
                                 </td>
                                     <td><input class="input--style-4" type="text" name=""></td>
-                                    <td><input class="input--style-4" type="text" name=""></td>
+                                    <td><input class="input--style-4" type="number" name=""></td>
                                     <td><input class="input--style-4" type="text" name=""></td>
                                     <td><input class="input--style-4" type="text" name=""></td>
                                     <td><input class="input--style-4" type="text" name=""></td>
@@ -184,7 +193,7 @@
                                     <label class="label">+2/ Diploma or equivalent</label>
                                 </td>
                                     <td><input class="input--style-4" type="text" name=""></td>
-                                    <td><input class="input--style-4" type="text" name=""></td>
+                                    <td><input class="input--style-4" type="number" name=""></td>
                                     <td><input class="input--style-4" type="text" name=""></td>
                                     <td><input class="input--style-4" type="text" name=""></td>
                                     <td><input class="input--style-4" type="text" name=""></td>
@@ -197,7 +206,8 @@
 						</div>
 
 <div>
-						GPA IN :
+	<br>
+	<br>					GPA IN :
 						<div class="row row-space">
 							
                             	<div class = "col-2">
@@ -262,11 +272,11 @@
                         
 </div>
 <div>
-                        <h1 class="title">Contact Information</h1>    
+                        <h2 class="title">Contact Information</h2>    
                            <div class="row row-space">
                                 <div class="input-group">
                                     <label class="label">Telephone Number</label>
-                                    <input class="input--style-4" type="text" name="">
+                                    <input class="input--style-4" type="number" name="">
                                 </div>
                             
                             
@@ -285,10 +295,10 @@
                                     <label class="label">Current Address</label>
                                     <input class="input--style-4" type="text" name="">
                                 </div>
-</div>
+					</div>
 
 
-                       <div> <h1 class="title">Local Guardian</h1>
+                       <div> <h2 class="title">Local Guardian</h2>
                            <div class="row row-space">
                                 <div class="input-group">
                                     <label class="label">Name</label>
@@ -308,7 +318,7 @@
                                 </div>
                                  <div class="input-group">
                                     <label class="label">Mobile number</label>
-                                    <input class="input--style-4" type="text" name="">
+                                    <input class="input--style-4" type="number" name="">
                                 </div>
 
                          
@@ -328,6 +338,7 @@
                                     <label class="label">Organization</label>
                                     <input class="input--style-4" type="text" name="">
                                 </div>
+
                                  <div class="input-group">
                                     <label class="label">Office telephone</label>
                                     <input class="input--style-4" type="text" name="">
@@ -338,7 +349,7 @@
                             
                             
                         </div>
-                        <h1 class="title">Family Information</h1>    
+                        <h2 class="title">Family Information</h2>    
                            <div class="row row-space">
                                 <div class="input-group">
                                     <label class="label">Father's Name</label>
@@ -387,7 +398,7 @@
                             
                                 <div class="input-group">
                                     <label class="label">Mobile Number</label>
-                                    <input class="input--style-4" type="text" name="">
+                                    <input class="input--style-4" type="number" name="">
                                 </div>
 
     							 <div class="input-group">
@@ -402,12 +413,13 @@
                            
                                  <div class="input-group">
                                     <label class="label">Office telephone</label>
-                                    <input class="input--style-4" type="text" name="">
+                                    <input class="input--style-4" type="number" name="">
                                 </div>
                         </div>
                             
-                           <div> <table border="1" class="table-curriculum">
-                            	<h2>Extra Curricular Activites</h1>
+                           <div class="table-curriculum"> 
+                           	<table border="2" >
+                            	<h2>Extra Curricular Activites</h2>
                         	<tr>
                         		<th>Extracurricular Activites</th>
                         		<th>Competence</th>               	
@@ -436,11 +448,13 @@
                         </table>
 
 						</div>
-                  
-
-                        <div class="p-t-15">
+						<br>
+						<br>
+						<div class="p-t-15">
                             <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
                         </div>
+                  
+
                     </form>
                 </div>
             </div>
