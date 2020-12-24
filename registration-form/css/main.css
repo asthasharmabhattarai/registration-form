@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 h2 {
@@ -145,7 +145,10 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+ font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  font-weight:300;
+  font-size: 28px;
+
 }
 
 h4 {
@@ -273,6 +276,7 @@ h6 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+
 }
 
 .btn--pill {
@@ -290,11 +294,12 @@ h6 {
 }
 
 .btn--blue {
+
   background: #4272d7;
 }
 
 .btn--blue:hover {
-  background: #3868cd;
+  background: purple;
 }
 
 /* ==========================================================================
@@ -345,6 +350,12 @@ input[type="date" i] {
   font-size: 14px;
   padding: 5px;
   outline: none;
+}
+
+.table-curriculum tr th
+{
+	
+	width : 1000px;
 }
 
 /* ==========================================================================
@@ -662,6 +673,33 @@ input {
  	margin-top:10px;
  	margin-bottom:10px;
  }
+
+.row row-space
+th,td,tr
+{
+padding:5px;
+}
+
+
+
+.cb1,.cb2,.cb3,.cb4,.cb5,.cb6
+{
+font-size:18px;
+font-weight:300;
+}
+
+
+.table-curriculum
+tr th
+{
+
+font-size:15px;
+}
+ /* ==========================================================================
+   #Photo Upload
+   ========================================================================== */
+
+
 /* ==========================================================================
    #CARD
    ========================================================================== */
@@ -697,3 +735,5 @@ input {
     padding: 5px 4px;
   }
 }
+
+Image upload
